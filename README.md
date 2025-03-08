@@ -49,4 +49,6 @@ Buat User nya
 -DATABASE
 
 ![image](https://github.com/user-attachments/assets/2abbca39-1d58-48ee-92fd-3cf3058d6d21)
+![image](https://github.com/user-attachments/assets/7c317af3-524b-4320-a331-7cd435fb8912)
+
 
