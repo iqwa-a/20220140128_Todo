@@ -1,66 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+1. Menyesuaikan file .evn dengan pada DB_DATABASE, DB_USERNAME dan DB_PASSWORD
+ ![image](https://github.com/user-attachments/assets/36ce2953-4509-4204-841f-a2ceebcb8911)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+2. Mengeksekusi perintah composer require laravel/breeze –dev
+ ![image](https://github.com/user-attachments/assets/45ee0055-24a6-410b-af42-a3412e1ff218)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+3. Eksekusi perintah ini “php artisan breeze:install” kemudian ketik blade
+ 
+![image](https://github.com/user-attachments/assets/d1498a00-a299-46cc-9070-69a7e1daf0b5)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+4. “Would you like dark mode support? (yes/no) [no]” yes
+![image](https://github.com/user-attachments/assets/bbed1bc4-7f3e-41a4-a431-a25b944f2b5d)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+5. “Which testing framework do you prefer? [Pest]” 1
+ ![image](https://github.com/user-attachments/assets/488eefd8-c0f4-46d1-b183-b7403b1769ad)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+6. Eksekusi perintah
+• php artisan migrate
+ ![image](https://github.com/user-attachments/assets/49dd5aff-d378-4f50-bb80-fab611f6064e)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+• npm install
+ ![image](https://github.com/user-attachments/assets/b1fddba6-55a0-45c7-b44b-f6825edbc38b)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+• php artisan serve
+ ![image](https://github.com/user-attachments/assets/bab55827-1016-4432-8cc9-732d9c73bd24)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+6. Buka link Local
+ ![image](https://github.com/user-attachments/assets/044d5cf8-22fc-48f9-a925-1668bf91d4da)
 
-### Premium Partners
+7. Tambahkan EndPoint Register
+Lakukan registrasi dengan format 
+ Nama : Admin
+ Email : admin@admin.com 
+Password : password
+ Confirm Password : password
+ ![image](https://github.com/user-attachments/assets/2563b304-b2e2-4dfd-bd8a-4a9254b71f37)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+8. Setelah registrasi berhasil maka akan masuk ke dalam dashboard seperti gambar berikut 
 
-## Contributing
+![image](https://github.com/user-attachments/assets/82d27824-1e0c-44e5-8a8d-45fc68238eec)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Buat User nya 
 
-## Code of Conduct
+![image](https://github.com/user-attachments/assets/79f920f1-215f-40a2-8047-23c8b4658364)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
